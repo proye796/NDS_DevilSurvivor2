@@ -18,22 +18,22 @@
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| DevilSurvivor2-KO-v1.0.nds | 134,217,728 | c7a01ba052438598e8971835bc088db7628aa4a1a7a91a4f8358659a9c3ac6e2 |
+| DevilSurvivor2-KO-v1.0-terms-fixed.nds | 134,217,728 | b58b5afa3ec980710ed4e58b0a13d34d43ac3cbd81e7ed95f0cbe6511c745e8f |
 
-이 결과는 v1.0으로 지정한 `DS2_KR_dev_dialogue_fixed.nds`와 파일 전체가 같습니다.
+이 결과는 기존 v1.0에서 아래 용어 10문구를 수정한 `DS2_KR_dev_terms_fixed.nds`와 파일 전체가 같습니다. 이전 ROM과 패처는 별도로 보존했습니다.
 
 ## 배포 파일
 
 | 파일 | 크기(바이트) | SHA-256 |
 |---|---|---|
-| DevilSurvivor2-KO-v1.0.zip | 18,498,943 | 0c5fe0cc21a289399d076b8f6f2f3877236a92f4b718ed7204334e850b86f8e3 |
-| DevilSurvivor2-KO-v1.0.exe | 18,817,369 | 105cc05bffd3fc22a59bfa136595e60749f43095a77c49a23f6b51e9598d11e0 |
+| DevilSurvivor2-KO-v1.0-terms-fixed.zip | 18,500,955 | 3634a150704034e9ecf7aeb85c03442cf3c482d747842dd740fa73a851034257 |
+| DevilSurvivor2-KO-v1.0-terms-fixed.exe | 18,819,534 | c560ca631e79a0a44c76b616eb09ab6de7f21006af4aee177d84f4b7e6258231 |
 
 ZIP에는 패처 EXE, 설명서(`README.txt`), 지원 원본·결과 정보(`manifest.json`), 라이선스 폴더(`licenses/`), 파일 검증 목록(`SHA256SUMS.txt`)이 들어 있습니다. EXE에는 패치 데이터와 실행에 필요한 구성 요소가 들어 있어 Python을 별도로 설치하지 않아도 됩니다.
 
 ## 적용 방법
 
-1. ZIP을 풀고 `DevilSurvivor2-KO-v1.0.exe`를 실행합니다.
+1. ZIP을 풀고 `DevilSurvivor2-KO-v1.0-terms-fixed.exe`를 실행합니다.
 2. **일본판 NDS**에서 수정하지 않은 일본판 원본 `.nds`를 선택합니다.
 3. **3DS 한국어판**에서 복호화된 한국어판 『브레이크 레코드』 파일을 선택합니다.
 4. **결과 저장 위치**에 새 `.nds` 파일 이름을 지정합니다.
